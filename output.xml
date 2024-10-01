@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.7 on win32)" generated="2024-10-01T20:45:00.058518" rpa="false" schemaversion="5">
+<suite id="s1" name="Teste Selenium" source="C:\Users\João Arruda\Desktop\ROBOT FRAMWORK\teste_selenium.robot">
+<test id="s1-t1" name="Pesquisa de Smartphone na Amazon" line="16">
+<kw name="Pesquisar Produto na Amazon">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-01T20:45:00.298539" level="INFO">Opening browser 'chrome' to base url 'https://www.amazon.com.br'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-01T20:45:00.298539" elapsed="8.873673"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-01T20:45:09.173229" level="INFO">Typing text 'smartphone' into text field 'id=twotabsearchtextbox'.</msg>
+<arg>id=twotabsearchtextbox</arg>
+<arg>${PRODUTO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-01T20:45:09.172212" elapsed="0.327088"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-10-01T20:45:09.499300" level="INFO">Clicking button 'id=nav-search-submit-button'.</msg>
+<arg>id=nav-search-submit-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-01T20:45:09.499300" elapsed="0.478131"/>
+</kw>
+<status status="PASS" start="2024-10-01T20:45:00.297520" elapsed="9.679911"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-10-01T20:45:10.041863" level="INFO">Current page contains text 'smartphone'.</msg>
+<arg>${PRODUTO}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-10-01T20:45:09.984940" elapsed="0.056923"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-10-01T20:45:10.056160" elapsed="2.926549"/>
+</kw>
+<status status="PASS" start="2024-10-01T20:45:00.296502" elapsed="12.687172"/>
+</test>
+<status status="PASS" start="2024-10-01T20:45:00.058518" elapsed="12.925156"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste Selenium">Teste Selenium</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
