@@ -1,0 +1,10 @@
+
+Cypress ativ 22-10/
+
+
+cypress/videos/
+cypress/screenshots/
+.env
+node_modules/
+*.log
+*.tmp
