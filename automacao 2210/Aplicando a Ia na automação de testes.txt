@@ -1,0 +1,13 @@
+Este documento TXT é o texto explicando como a IA poderia ajudar na automação de testes
+
+Para começarmos, tentamos realizar os testes em cypress sem ajuda da inteligência artificial, 
+o que levou bastante tempo para aprender o básico e entender como o cypress funciona, 
+depois de algumas tentativas, utilizamos a IA para que fosse possível agilizar o processo da criação da automação
+
+A ia forneceu ideias de ajustes, melhorias e propostas de novas interações que podem ser possíveis que o usuário faça,
+ por causa desse ocorrido, podemos concluir que a IA pode ajudar em:
+- Aumento da velocidade no desenvolvimento das automações
+- ajudar a construir casos de testes
+- Prever interações do usuário 
+- Correções e melhorias para a automação
+- Concluir o objetivo em menos tempo e maior qualidade
